@@ -117,8 +117,6 @@ class App {
     const duration = +inputDuration.value;
     const { lat, lng } = this.#mapEvent.latlng;
     let workout;
-    // Check if data is valid
-
     // If workout, running create running object
     if (type === 'running') {
       const cadence = +inputCadence.value;
@@ -132,7 +130,7 @@ class App {
       workout = new Running([lat, lng], distance, duration, cadence);
     }
     // If workout cycling, create cycling object
-    if (type === 'working') {
+    if (type === 'cycling') {
       const elevation = +inputElevation.value;
       // Check if data is valid
       if (
