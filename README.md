@@ -1,5 +1,5 @@
 # mapty-app
-Web app that let's you keep track of your workouts.
+Web app that lets you keep track of your workouts.
 
 ## Stack Used
 - HTML
